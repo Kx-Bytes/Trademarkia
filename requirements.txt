@@ -1,0 +1,29 @@
+# Core ML / Embedding
+sentence-transformers==2.7.0
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# Vector Database
+chromadb==0.5.0
+
+# Data
+scipy==1.13.0
+pandas==2.2.2
+datasets==2.19.1
+
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+python-multipart==0.0.9
+
+# Utilities
+tqdm==4.66.4
+python-dotenv==1.0.1
+httpx==0.27.0
+
+# Notebook / Analysis (optional, for scripts)
+matplotlib==3.8.4
+seaborn==0.13.2

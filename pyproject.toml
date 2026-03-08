@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+# Run from the repo root: pytest
+testpaths      = ["tests"]
+python_files   = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+# Short traceback by default; use -v for verbose
+addopts = "-ra -q"
+
+# Marks used in the test suite
+markers = [
+    "slow: marks tests as slow (deselect with -m 'not slow')",
+    "integration: requires prepare_data.py to have been run",
+]
